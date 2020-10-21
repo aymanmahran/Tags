@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1b1b1b"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ListView
+        android:id="@+id/wifiList"
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        android:divider="#008d90"
+        android:dividerHeight="4px"
+        android:layout_weight="0.97" />
+
+    <Button
+        android:id="@+id/scanBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="15dp"
+        android:background="#008d90"
+        android:text="Scan Tags"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
